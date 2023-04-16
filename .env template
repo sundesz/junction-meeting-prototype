@@ -1,0 +1,3 @@
+MONGODB_URI_DEV=mongodb+srv://username:password@mongodb.net/junction_meeting?retryWrites=true&w=majority
+
+PORT=8080

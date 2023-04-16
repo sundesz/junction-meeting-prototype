@@ -1,0 +1,279 @@
+body {
+  background-image: linear-gradient(#55d186, #444444);
+  font-family: 'Chivo Mono', monospace;
+  color: #fff;
+}
+
+.paragraph h1 {
+  font-size: 8rem;
+  text-transform: uppercase;
+  word-spacing: -10px;
+}
+
+.paragraph p {
+  font-family: 'Space Mono', sans-serif;
+  font-size: 1.5rem;
+}
+
+.roles {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+.roles div {
+  display: flex;
+  height: 90px;
+  width: 180px;
+  background-color: #6b3ba9;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  word-break: break-word;
+  padding: 10px;
+  text-align: center;
+}
+.roles div:hover {
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  background-color: #6428b1;
+}
+
+.teams {
+  display: flex;
+  gap: 4rem;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+.team {
+  width: 614px;
+  background: #304330;
+  border-radius: 10px;
+  padding: 10px 20px 20px;
+}
+
+.team .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.team .header .title {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.team .header .hashtag {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.member {
+  display: flex;
+  flex-direction: column;
+}
+
+.member .section-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.member .section-1 .name-role {
+  display: flex;
+  font-size: 4rem;
+  word-spacing: -10px;
+}
+
+.member .section-1 .email {
+  font-size: 2rem;
+}
+
+.member .section-2 {
+  display: flex;
+  gap: 16px;
+}
+
+/* .member .section-2 .photo {
+  height: 250px;
+  width: 80%;
+  border: 5px solid gray;
+  border-radius: 14px;
+} */
+
+.member .section-2 .photo,
+.member .section-2 .skills,
+.member .section-2 .about-me {
+  flex: 1;
+}
+
+.member .section-2 .skills .title,
+.member .section-2 .about-me .title {
+  font-size: 2rem;
+}
+
+.rating {
+  display: flex;
+  gap: 5px;
+}
+
+.skill {
+  display: flex;
+  gap: 20px;
+}
+
+.skill .name {
+  font-size: 1.2rem;
+}
+
+.image {
+  display: flex;
+  height: 320px;
+  width: 280px;
+  border: 10px solid lightgray;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+}
+
+.single-team {
+  display: flex;
+  flex-direction: column;
+}
+
+.single-team .section-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.single-team .section-1 .name {
+  display: flex;
+  font-size: 4rem;
+  word-spacing: -10px;
+  justify-content: space-between;
+}
+
+.single-team .section-1 .email {
+  font-size: 2rem;
+}
+
+.single-team .roles {
+  display: flex;
+  gap: 10rem;
+  flex-wrap: wrap;
+}
+
+.single-team .team-members {
+  display: flex;
+  gap: 10rem;
+}
+
+.single-team .team-members .email {
+  text-align: center;
+}
+
+.single-team .section-3 {
+  display: flex;
+  justify-content: center;
+}
+
+.btn,
+button {
+  font-size: 2rem;
+  width: 50%;
+  padding: 15px 0;
+  color: #fff;
+}
+
+/**
+fsa
+*/
+
+a {
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #20fa20;
+}
+
+.members {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.members .email {
+  text-align: center;
+}
+
+.application .title .name {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.application .title .hashtag {
+  font-size: 2rem;
+  font-style: italic;
+  margin-top: -15px;
+}
+
+.application textarea {
+  width: 100%;
+}
+
+.application .paragraph .description {
+  margin-top: -25px;
+}
+
+.application .paragraph .text-field {
+  font-size: 1.2rem;
+}
+
+.application-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.application .block {
+  padding: 10px 40px;
+  background: #c3c3c3;
+  border-radius: 10px;
+  margin-top: 3rem;
+  color: #2e2e2e;
+}
+
+.success-block {
+  text-align: center;
+}
+
+.navbar-text {
+  padding: 0;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+}
+
+.navbar-brand {
+  padding-top: 0;
+}
+
+.home .teams {
+  padding-left: 0;
+  padding-right: 0;
+}
